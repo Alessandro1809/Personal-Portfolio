@@ -44,14 +44,14 @@ const FormContact = () => {
       <div className="flex gap-4">
     <div className="mb-5 w-full ">
             <label htmlFor="name"
-            className="font-bold text-white uppercase"
+            className="lg:font-bold text-white uppercase lg:text-lg md:text-lg sm:text-lg text-xs font-semibold"
             >Name:</label>
             <input 
             id="name"
             name="user_name"
             type="text"
             placeholder="Enter your name"
-            className="w-full p-2 mt-2 placeholder-white border-2 rounded-md bg-black text-white"
+            className="w-full p-2 mt-2 placeholder-white border-2 rounded-md bg-black text-white placeholder:text-xs lg:placeholder:text-lg md:placeholder:text-lg sm:placeholder:text-lg "
             value={name}
             onChange={e=>setName(e.target.value)}
             
@@ -59,14 +59,14 @@ const FormContact = () => {
         </div>
         <div className="mb-5 w-full ">
             <label htmlFor="Email"
-            className="font-bold text-white uppercase"
+            className="lg:font-bold text-white uppercase lg:text-lg md:text-lg sm:text-lg text-xs font-semibold"
             >Email address:</label>
             <input 
             id="subject"
             name="user_email"
             type="text"
             placeholder="Enter your mail address"
-            className="w-full p-2 mt-2 placeholder-white border-2 rounded-md bg-black text-white"
+            className="w-full p-2 mt-2 placeholder-white border-2 rounded-md bg-black text-white placeholder:text-xs lg:placeholder:text-lg md:placeholder:text-lg sm:placeholder:text-lg"
             value={email}
             onChange={e=>setEmail(e.target.value)}
             />
@@ -74,14 +74,14 @@ const FormContact = () => {
         </div>
         <div className="mb-5 w-full ">
             <label htmlFor="message"
-            className="font-bold text-white uppercase"
+            className="lg:font-bold text-white uppercase lg:text-lg md:text-lg sm:text-lg text-xs font-semibold"
             >message:</label>
             <textarea 
             id="message"
             name="message"
             type="text"
             placeholder="Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?"
-            className="w-full p-2 mt-2 placeholder-white border-2 rounded-md bg-black text-white resize-none h-20"
+            className="w-full p-2 mt-2 placeholder-white border-2 rounded-md bg-black text-white resize-none h-20 lg:placeholder:text-lg md:placeholder:text-lg sm:placeholder:text-lg placeholder:text-xs"
             value={message}
             onChange={e=>setMessage(e.target.value)}
             />
