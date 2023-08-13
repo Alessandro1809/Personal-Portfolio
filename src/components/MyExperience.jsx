@@ -12,45 +12,46 @@ import iconoC from '../assets/C.svg'
 import iconoCSS from '../assets/CSS.svg'
 import DropdownButton from './DropdownButton'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 AOS.init();
 const MyExperience = () => {
   return (
     <>
-        <div className='lg:hidden md:hidden sm:block text-center '>
+     <div className="bg-black bg-[url('./assets/wave2.svg')] bg-no-repeat h-full bg-w-full">
+        <div className='text-center lg:hidden md:hidden sm:block '>
         <DropdownButton/>
         </div>
-        <div className="lg:px-20 md:px-20 lg:py-40 lg:w-3/4 h-auto sm:py-40 md:py-40 py-20">
-          <h1 className="text-emerald-400 lg:text-5xl font-semibold lg:px-40 md:px-40 sm:px-40 underline text-3xl md:text-4xl px-4" data-aos='fade-right'>Over the years</h1>
-          <p className="text-white text-xl lg:ml-36 mt-10 p-6 text-justify" data-aos='fade-right'>I've developed multiple personal and experimental projects throughout my apprenticeship, from 2020 to the present, from small apps with important functionalities and algorithmic complexity to complete crm systems in the <span className="text-xl font-bold text-cyan-400"> MERN</span> stakc, I've learned to handle style frameworks such as <span className="text-xl font-bold text-cyan-200"> TailwindCSSs</span> and <span className="text-xl font-bold text-blue-500"> Bootstrap</span> for build intuitive and attractive applications, worked and shaped complete landing pages, during my apprenticeship I was and still am very self-taught, so I strive to always learn something new and constantly take on development challenges.</p>
+        <div className="h-auto py-20 lg:px-20 md:px-20 lg:py-32 lg:w-3/4 sm:py-40 md:py-40">
+          <h1 className="px-4 text-3xl font-semibold text-red-500 underline lg:text-5xl lg:px-40 md:px-40 sm:px-40 md:text-4xl" data-aos='fade-right'>Over the years</h1>
+          <p className="p-6 mt-10 text-xl text-justify text-white lg:ml-36" data-aos='fade-right'>I've developed multiple personal and experimental projects throughout my apprenticeship, from 2020 to the present, from small apps with important functionalities and algorithmic complexity to complete crm systems in the <span className="text-xl font-bold text-violet-500"> MERN</span> stakc, I've learned to handle style frameworks such as <span className="text-xl font-bold text-violet-500"> TailwindCSSs</span> and <span className="text-xl font-bold text-blue-500"> Bootstrap</span> for build intuitive and attractive applications, worked and shaped complete landing pages, during my apprenticeship I was and still am very self-taught, so I strive to always learn something new and constantly take on development challenges.</p>
         </div>
 
-        <div className=" lg:w-4/3 h-auto grid lg:grid-flow-col-row md:grid-flow-row lg:gap-4 ">
-            <div className='mb-12'>
-              <h1 className="text-emerald-400 lg:text-3xl font-semibold lg:px-40 md:px-40 sm:px-40 underline text-2xl md:text-4xl w-auto px-2 "data-aos='zoom-in-right'>Companies where I worked</h1>
-              <p className="text-white lg:text-xl md:text-xl sm:text-xl lg:ml-32 lg:mr-96 mt-10 lg:p-6 md:p-6 sm:p-6 text-justify h-auto w-auto p-3" data-aos='fade-right'>RomanoffGroup - It is a company in charge of offering construction, architecture, interior and exterior design services for prestigious projects, located in Costa Rica, Guanacaste, Playas del Coco, in this company the project and maintenance of its landing page was carried out, 
-              <span className='text-cyan-600'> www.Romanoffgroupcr.com</span>, a Landing that required an elaboration in the <span className="text-xl font-bold text-cyan-400"> MERN</span>  stack as it functioned as an exhibition of the projects developed, my work in the company was as a full-stack developer and project manager.</p>
+        <div className="grid h-auto lg:w-4/3 lg:grid-flow-col-row md:grid-flow-row lg:gap-4">
+            <div className='mb-0 ' >
+              <h1 className="w-auto px-2 text-2xl font-semibold text-red-500 underline lg:text-3xl lg:px-40 md:px-40 sm:px-40 md:text-4xl "data-aos='zoom-in-right'>Companies where I worked</h1>
+              <p className="w-auto h-auto p-3 mt-10 text-justify text-white lg:text-xl md:text-xl sm:text-xl lg:ml-32 lg:mr-96 lg:p-6 md:p-6 sm:p-6" data-aos='fade-right'>RomanoffGroup - It is a company in charge of offering construction, architecture, interior and exterior design services for prestigious projects, located in Costa Rica, Guanacaste, Playas del Coco, in this company the project and maintenance of its landing page was carried out, this page required an elaboration in the <span className="text-xl font-bold text-violet-500"> MERN</span>  stack as it functioned as an exhibition of the projects developed, my work in the company was as a full-stack developer and project manager.</p>
+              
             </div>
-
-            <div data-aos='zoom-in-right'>
-              <h1 className="text-emerald-400 lg:text-3xl text-2xl font-semibold lg:px-40 md:px-40 sm:px-40 underline md:text-4xl px-4">My technology stack:</h1>
-              <div className='grid lg:grid-cols-2 justify-center  md:grid-cols-2 md:ml-20'>
-              <p className="text-white text-xl lg:ml-40 mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconojs} alt="iconoJS" className='w-10 h-auto rounded-sm animate-pulse'/>- Javascript</p>
-              <p className="text-white text-xl  mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconotailwind} alt="iconoTW" className='w-10 h-auto rounded-sm '/>- TailwindCSS</p>
-              <p className="text-white text-xl lg:ml-40 mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoBoot} alt="iconoBoot" className='w-10 h-auto rounded-sm'/>- BootstrapCSS</p>
-              <p className="text-white text-xl  mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoHtml} alt="iconoHtml" className='w-10 h-auto rounded-sm '/>- HTML</p>
-              <p className="text-white text-xl lg:ml-40 mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoReact} alt="iconoJS" className='w-10 h-auto rounded-sm animate-pulse '/>- React</p>
-              <p className="text-white text-xl  mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoNode} alt="iconoJS" className='w-10 h-auto rounded-full animate-pulse '/>- Nodejs</p>
-              <p className="text-white text-xl lg:ml-40 mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoExpress} alt="iconoJS" className='w-10 h-auto rounded-full animate-pulse '/>- Express JS</p>
-              <p className="text-white text-xl  mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoMongo} alt="iconoJS" className='w-10 h-auto rounded-full animate-pulse '/>- Mongo DB</p>
-              <p className="text-white text-xl lg:ml-40 mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoJava} alt="iconoJS" className='w-12 h-auto rounded-full'/>- Java</p>
-              <p className="text-white text-xl  mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoSql} alt="iconoJS" className='w-12 h-auto rounded-full'/>- My SQL</p>
-              <p className="text-white text-xl lg:ml-40 mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoC} alt="iconoJS" className='w-12 h-auto rounded-full'/>- C#</p>
-              <p className="text-white text-xl  mt-10 flex gap-2"data-aos='zoom-in-right'> <img src={iconoCSS} alt="iconoJS" className='w-12 h-auto rounded-full'/>- CSS3</p>
+                    
+            <div className='mb-5' data-aos='zoom-in-right'>
+              <h1 className="px-4 text-2xl font-semibold text-yellow-500 underline lg:text-3xl lg:px-40 md:px-40 sm:px-40 md:text-4xl">My technology stack:</h1>
+              <div className='grid justify-center lg:grid-cols-2 md:grid-cols-2 md:ml-20'>
+              <p className="flex gap-2 mt-10 text-xl text-white lg:ml-40"data-aos='zoom-in-right'> <img src={iconojs} alt="iconoJS" className='w-10 h-auto rounded-sm animate-pulse'/>- Javascript</p>
+              <p className="flex gap-2 mt-10 text-xl text-white"data-aos='zoom-in-right'> <img src={iconotailwind} alt="iconoTW" className='w-10 h-auto rounded-sm '/>- TailwindCSS</p>
+              <p className="flex gap-2 mt-10 text-xl text-white lg:ml-40"data-aos='zoom-in-right'> <img src={iconoBoot} alt="iconoBoot" className='w-10 h-auto rounded-sm'/>- BootstrapCSS</p>
+              <p className="flex gap-2 mt-10 text-xl text-white"data-aos='zoom-in-right'> <img src={iconoHtml} alt="iconoHtml" className='w-10 h-auto rounded-sm '/>- HTML</p>
+              <p className="flex gap-2 mt-10 text-xl text-white lg:ml-40"data-aos='zoom-in-right'> <img src={iconoReact} alt="iconoJS" className='w-10 h-auto rounded-sm animate-pulse '/>- React</p>
+              <p className="flex gap-2 mt-10 text-xl text-white"data-aos='zoom-in-right'> <img src={iconoNode} alt="iconoJS" className='w-10 h-auto rounded-full animate-pulse '/>- Nodejs</p>
+              <p className="flex gap-2 mt-10 text-xl text-white lg:ml-40"data-aos='zoom-in-right'> <img src={iconoExpress} alt="iconoJS" className='w-10 h-auto rounded-full animate-pulse '/>- Express JS</p>
+              <p className="flex gap-2 mt-10 text-xl text-white"data-aos='zoom-in-right'> <img src={iconoMongo} alt="iconoJS" className='w-10 h-auto rounded-full animate-pulse '/>- Mongo DB</p>
+              <p className="flex gap-2 mt-10 text-xl text-white lg:ml-40"data-aos='zoom-in-right'> <img src={iconoJava} alt="iconoJS" className='w-12 h-auto rounded-full'/>- Java</p>
+              <p className="flex gap-2 mt-10 text-xl text-white"data-aos='zoom-in-right'> <img src={iconoSql} alt="iconoJS" className='w-12 h-auto rounded-full'/>- My SQL</p>
+              <p className="flex gap-2 mt-10 text-xl text-white lg:ml-40"data-aos='zoom-in-right'> <img src={iconoC} alt="iconoJS" className='w-12 h-auto rounded-full'/>- C#</p>
+              <p className="flex gap-2 mt-10 text-xl text-white"data-aos='zoom-in-right'> <img src={iconoCSS} alt="iconoJS" className='w-12 h-auto rounded-full'/>- CSS3</p>
               </div>
             </div>
         </div>
-
+        </div>
       </>
       
   )
