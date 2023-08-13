@@ -39,7 +39,7 @@ const FormContact = () => {
       <p className="mb-8 text-3xl font-bold text-center text-yellow-300 underline"data-aos='fade-right'>Let's do amazing things together!</p>
       <p className="mb-8 text-2xl font-semibold text-center text-white"data-aos='fade-right'>Got a question or proposal, or just want to say hello? Go ahead.</p>
     
-     <img src={cont} className="h-auto w-96" />
+     <img src={cont} className="h-auto w-96" data-aos='fade-right' />
      
             
     </div>
