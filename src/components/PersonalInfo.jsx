@@ -1,4 +1,4 @@
-import foto from '../assets/presentacion.png'
+import foto from '../assets/presentacion.jpeg'
 import skull from '../assets/skull.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
