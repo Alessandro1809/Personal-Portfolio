@@ -2,9 +2,7 @@ import { Link } from "react-router-dom";
 import instagram from '../assets/instagram.svg'
 import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+
 const Footer = () => {
   return (
     <>
