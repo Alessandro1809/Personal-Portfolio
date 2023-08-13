@@ -38,7 +38,7 @@ const MyProjects = () => {
             <div className="w-full h-32 rounded-lg lg:w-auto md:w-auto sm:w-full lg:h-44 md-h-44 sm:h-44">
               <img src={GiffExpert} alt="GFEXP" className='w-auto h-full ' />
             </div>
-            <p className="p-2 text-white">Description: A GifF seracher page with the service from Giphy for developers API.</p>
+            <p className="p-2 text-white">Description: A Giff seracher page with the service from Giphy for developers API.</p>
             <Link to='https://giffexpertapp-react.netlify.app'><p className="p-2 text-white">Visit the site: <span className="p-2 text-white hover:text-red-500"> click me to see GiffExpert.app</span></p></Link>
         </div>
         
