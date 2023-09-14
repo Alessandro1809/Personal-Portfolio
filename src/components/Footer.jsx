@@ -19,7 +19,7 @@ const Footer = () => {
         
         <div className="flex gap-6">
           <Link to='https://instagram.com/this._is_.ale?igshid=ZDc4ODBmNjlmNQ=='><img src={instagram} alt="IG"/> <p className="text-2xl text-center text-white lg:text-lg md:text-lg">IG</p></Link>
-         <Link to='https://www.linkedin.com/in/alessandro-diaz'> <img src={linkedin} alt="IN" /> <p className="text-2xl text-center text-white lg:text-lg md:text-lg">IN</p></Link>
+         <Link to='https://www.linkedin.com/in/alessandrodg'> <img src={linkedin} alt="IN" /> <p className="text-2xl text-center text-white lg:text-lg md:text-lg">IN</p></Link>
           <Link to='https://github.com/Alessandro1809'><img src={github} alt="GH"/><p className="text-xl text-center text-white lg:text-lg md:text-lg">GH</p></Link>
           </div>
         </div>
